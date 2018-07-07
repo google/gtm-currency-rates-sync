@@ -211,4 +211,3 @@ function publishLookupTable_(
     throw new Error('Failed to publish container.');
   }
 }
-
