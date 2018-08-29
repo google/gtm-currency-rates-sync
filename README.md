@@ -8,7 +8,8 @@ Google Finance data via sheets. The resulting lookup table can be leveraged by
 custom GTM variable scripts for applying currency conversion on tags data.
 
 Example: Utilising the lookup table to updating revenue data in Floodlight tags
-on multi-currency sites before sending them into DCM or DS.
+on multi-currency sites before sending them into a reporting tool such Display & Video 360 
+or Google Analytics.
 
 ## Setup instructions
 
