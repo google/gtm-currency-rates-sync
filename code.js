@@ -62,6 +62,11 @@ function refreshCurrencies_(
 
   currencyCodes.forEach(function(currencyCode) {
     if (convertToBase) {
+      // We won't get a result for converting the baseCurrency, rather a `#NA`
+      if(currencyCode === baseCurrency){
+        formulaTemplate = 1.00;
+      }
+      else {
       formulaTemplate =
           '=GoogleFinance("CURRENCY:' + currencyCode + baseCurrency + '")';
     } else {
