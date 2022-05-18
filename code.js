@@ -111,7 +111,7 @@ function buildLookupTable_(currencyRates, tableName) {
       'type': 'map',
       'map': [
         {'type': 'template', 'key': 'key', 'value': key},
-        {'type': 'template', 'key': 'value', 'value': currencyRates[key]}
+        {'type': 'template', 'key': 'value', 'value': '' + currencyRates[key]}
       ]
     });
   }
